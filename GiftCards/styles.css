@@ -6,6 +6,22 @@ div {
     display: block;
 }
 
-form {
+.form-ui__group {
     text-align: left;
+}
+
+textarea {
+    min-width: 100%;
+    max-width: 100%;
+    height: 9rem;
+    min-height: 9rem;
+    max-height: 12rem;
+}
+
+.form-control-group--icon {
+    color: rgba(221,221,221,0.6);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 8px;
 }

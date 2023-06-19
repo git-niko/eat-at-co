@@ -1,14 +1,41 @@
 h1 {
-    font-weight: 900;
+    font-weight: 900 !important;
+    font-family: "Roboto" , sans-serif !important;
+    letter-spacing: 2px;
+    
+}
+.font-heading {
+    font-size: 2rem !important;
 }
 
-div {
-    display: block;
+
+body {
+    font-family: "Roboto" !important;
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    color: #222;
+}
+
+#main-content a {
+    color: #444;
+    text-decoration: none;
 }
 
 .form-ui__group {
     text-align: left;
+    border-radius: 0;
+    /* padding: 0.75rem 0.75rem; */
 }
+
+.input-label {
+    font-size: 1rem;
+    padding-left: 3px;
+}
+.input-label-required {
+    color: #b6b6b6;
+    font-style: italic;
+}
+
 
 textarea {
     min-width: 100%;
@@ -17,6 +44,10 @@ textarea {
     min-height: 9rem;
     max-height: 12rem;
 }
+.float-right {
+    float: right;
+    margin-right: 22%;
+}
 
 .form-control-group--icon {
     color: rgba(221,221,221,0.6);
@@ -24,4 +55,14 @@ textarea {
     top: 50%;
     transform: translateY(-50%);
     right: 8px;
+}
+
+.btn {
+    margin-top: 4%;
+    margin-left: 25%;
+}
+#cart-button {
+    background-color: red;
+    color: #fff;
+    font-family: "Roboto";
 }

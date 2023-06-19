@@ -8,32 +8,39 @@
     <link href="styles.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
 </head>
 <body>
  <div class="container text-center">
     <section id="main-content" class="content container-sm revealable revealed text-center">
-        <h1>GIFT CARDS</h1>
+        <h1 class="display-5 fw-bold thick-text">GIFT CARDS</h1>
         <img src="chopsticks.png" height="15px" />
-        <h2>CLICK TO PURCHASE AN E-CARD</h2>
+        <br />
+        <br />
+        <h2 class="display-7 fw-bold thick-text"><a href="">CLICK TO PURCHASE AN E-CARD</a></h2>
         <p>
             Email a CO card to a friend for 'now' or 'later'. Click the above link to purchase your card at any value! 
         </p>
+        <br />
+        <br />
         
     </section>
 
     <section id="form" class="content text-center">
         <form class="container-sm">
             <div class="form-header">
-                <h2>PHYSICAL GIFT CARDS</h2>
-                <p>
+                <h2 class="h1 form-heading display-6 fw-bold thick-text">PHYSICAL GIFT CARDS</h2>
+                <p class="center-text">
                     Your gift card will be mailed to the address indicated on the form below within 3-4 business days. The gift card will never expire and is simple to redeem—just present after dining.
                 </p>
             </div>
     
             <div class="form-ui__group">
-                <div class="row">
-                    <div class="col-12">
+                <div class="row justify-content-center">
+                    <div class="col-8 mt-2">
                         <label for="physical-amount" class="input-label">
                             Select Amount<span class="input-label-required"> - Required</span>
                         </label>
@@ -52,31 +59,31 @@
                         </span>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-8">
                         <label for="recipient-name" class="input-label">
                             Recipient's Name<span class="input-label-required"> - Required</span>
                         </label>
                         <input id="recipient-name" type="text" name="recipient_name" class="form-control" placeholder="Recipient's Name" required>
                     </div>
-                    <div class="col-12">
+                    <div class="col-8">
                         <label for="recipient-address-1" class="input-label">
                             Recipient's Street Address 1<span class="input-label-required"> - Required</span>
                         </label>
                         <input id="recipient-address-1" type="text" name="recipient_address_1" class="form-control" placeholder="Recipient's Street Address 1" required>
                     </div>
-                    <div class="col-12">
+                    <div class="col-8">
                         <label for="recipient-address-2" class="input-label">
                             Recipient's Street Address 2
                         </label>
                         <input id="recipient-address-2" type="text" name="recipient_address_2" class="form-control" placeholder="Recipient's Street Address 2">
                     </div>
-                    <div class="col-12">
+                    <div class="col-8">
                         <label for="city" class="input-label">
                             City<span class="input-label-required"> - Required</span>
                         </label>
                         <input id="city" type="text" name="city" class="form-control" placeholder="City" required>
                     </div>
-                    <div class="col-12">
+                    <div class="col-8">
                         <label for="state" class="input-label">
                             State<span class="input-label-required"> - Required</span>
                         </label>
@@ -141,19 +148,20 @@
                         </span>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-8">
                         <label for="zip-code" class="input-label">
                             Zip Code<span class="input-label-required"> - Required</span>
                         </label>
                         <input id="zip-code" type="text" name="zip_code" class="form-control" placeholder="Zip Code" required>
                     </div>
-                    <div class="col-12">
+
+                    <div class="col-8 mt-5">
                         <label for="your-name" class="input-label">
                             Your Name<span class="input-label-required"> - Required</span>
                         </label>
                         <input id="your-name" type="text" name="your_name" class="form-control" placeholder="Your Name" required>
                     </div>
-                    <div class="col-12">
+                    <div class="col-8 mt-2">
                         <label for="your-message" class="input-label">
                             Your Message
                         </label>
@@ -161,6 +169,11 @@
                     </div>
                 </div>
             </div>
+            <div class="float-right">
+                <span>0/250</span>
+            </div>
+            <button id="cart-button" type="button" class="btn btn-primary btn-outline-danger">ADD TO CART</button>
+
         </form>
     </section>
 

@@ -84,7 +84,7 @@ main {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    z-index: 99;
+    z-index: 1;
     width: 100%;
     color: white;
     text-align: center;
@@ -155,11 +155,8 @@ main {
 .carousel-control-next,
 .carousel-control-prev {
     opacity: 1;
-}
-
-.carousel-control-next,
-.carousel-control-prev {
     width: 5%;
+    z-index: 2;
 }
 
 .down-btn {

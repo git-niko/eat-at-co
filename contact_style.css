@@ -1,0 +1,223 @@
+@charset "UTF-8";
+/* Header */
+
+header {
+    position: absolute;
+    z-index: 99;
+}
+header nav {
+    padding-top: 20px !important;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.0);
+    transition-duration: 0.6s;
+}
+
+nav li {
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: white;
+    font-size: 14.4px;
+    font-weight: 300;
+    font-family: Roboto;
+    letter-spacing: 1px;
+}
+
+.nav-link:hover,
+nav a:hover,.navbar-nav, .nav-link.show,
+.dropdown-item:hover {
+    color: rgba(255, 255, 255, 0.64);
+}
+
+#logo {
+    width: 150px;
+    margin-left: 15px;
+}
+
+ul.navbar-nav {
+    line-height: 60px; 
+    list-style: none; 
+    background: rgba(0, 0, 0, 0); 
+    overflow: hidden; 
+    padding-right: 33.75px !important;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: rgba(227, 37, 38, 0.8);
+    border-radius: 0;
+    min-width: 170px;
+}
+
+.dropdown-item {
+    color: white;
+    font-size: .7646em !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: normal;
+    padding: .5em 1rem;
+    margin: 0 0.5em;
+    white-space: normal;
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
+}
+
+aside {
+    position: absolute;
+    background-color: black;
+    display: table;
+    text-align: center;
+    height: 32vh;
+    width: 100%;
+}
+
+aside p {
+    display: table-cell;          
+    justify-content: center;
+    vertical-align: middle; 
+}
+
+/*footer*/
+
+footer {
+    display: flex;
+    height: 50px;
+    background-color: black;
+    justify-content: center;
+}
+
+footer nav{
+    background-color: black;
+    width: 100%;
+    height: 6.5vh;
+    text-align: center;
+    line-height: 100%;
+}
+
+footer,
+footer nav ul {
+    list-style: none;
+    padding-top: 2.5vh;
+    padding-left: 0px;
+    font-size: 14.4px;
+    font-family: Roboto;
+}
+
+footer nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+footer nav li a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 7.2px;
+}
+
+footer nav li a.current {
+    color:gray;
+}
+
+/*Main*/
+.label {
+    font-family: Roboto;
+    font-weight: bolder;
+    font-size: 0.8rem;
+}
+
+.label_required {
+    font-style: italic;
+    font-weight: bold;
+    color: #b6b6b6;
+}
+
+#contact {
+    position: relative;
+    top: 100px;
+}
+
+#chev_btn {
+    position: relative;
+    text-decoration: none; 
+    height: 15vh; 
+    font-size: 2rem; 
+    color: rgb(255, 255, 255); 
+    -webkit-text-stroke-width: 2.5px; 
+    outline: none;
+}
+
+
+#send_btn:hover {
+    background-color: black;
+}
+
+#send_btn {
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    background-color: #e32526;
+    border-radius: 2%;
+    text-align: center;
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 0;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 9px 18px;
+}
+
+/*@media (min-width: 769px){
+#send_btn {
+    width: auto;
+    display: inline-block;
+}
+}*/
+
+#btn_div {
+    text-align: center;
+    justify-items: center;
+    display: block;
+    height: 76px;
+    margin-top: 50px;
+}
+
+textarea {
+    min-width: 100%;
+    max-width: 100%;
+    height: 9rem;
+    min-height: 9rem;
+    max-height: 12rem;
+}
+main.form-control, main.form-select {
+    padding: 13.5px;
+    size:27px;
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-sm {
+    max-width: 900px;
+}
+
+#message {
+    padding: 13.5px;
+    size: 100%;
+    height: 9rem;
+    vertical-align:top;
+    text-align: start;
+}

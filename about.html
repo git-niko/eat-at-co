@@ -1,22 +1,23 @@
 <!doctype html>
 <html lang="en">
-    <head>
+  <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" type="text/css" href="css\style.css"> 
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
       <title>About | CO</title>
       <link rel="icon" type="images/x-icon" href="images/CO_logo.png" /> 
-    </head>
+  </head>
     <body>
-                <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+                <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="position: fixed; width: 100%; margin-right: 33.75px; padding-right: 0%;">
                     <div class="container">
-                      <a class="navbar-brand"></a>
+                      <a class="navbar-brand">
                         <img src="images/CO_logo.png" alt="" width="56" height="56" class="d-inline-block align-text-right">
+                      </a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
-                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                         <ul class="navbar-nav" id="sample">
                           <li class="nav-item dropdown">
                               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -58,7 +59,6 @@
             </header>
             <script>
               const navEl = document.querySelector('.navbar');
-
               window.addEventLister('scroll', () => {
                 if (window.scrollY > 56) {
                   navEl.classList.add('navbar-scrolled');
@@ -70,31 +70,57 @@
         </div> 
         <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
           <div class="carousel-inner">
+            
             <div class="carousel-item active">
               <img src="images/image8.avif" class="d-block w-100" id=staffpic alt="...">
               <div class="carousel-caption">
-                <h1>About</h1>
+                <h1 class="text-uppercase">About</h1>
                 <p>At CO, find uniquely inspired dishes with fresh, robust flavors and handcrafted cocktails.</p>
               </div>
             </div>
             <div class="carousel-item">
               <img src="images/image14.avif" class="d-block w-100" id=staffpic alt="...">
+              <div class="carousel-caption">
+                <h1 class="text-uppercase">About</h1>
+                <p>At CO, find uniquely inspired dishes with fresh, robust flavors and handcrafted cocktails.</p>
+              </div>
             </div>
             <div class="carousel-item">
               <img src="images/image7.avif" class="d-block w-100" id=staffpic alt="...">
+              <div class="carousel-caption">
+                <h1 class="text-uppercase">About</h1>
+                <p>At CO, find uniquely inspired dishes with fresh, robust flavors and handcrafted cocktails.</p>
+              </div>
             </div>
             <div class="carousel-item">
               <img src="images/image9.avif" class="d-block w-100" id=staffpic alt="...">
+              <div class="carousel-caption">
+                <h1 class="text-uppercase">About</h1>
+                <p>At CO, find uniquely inspired dishes with fresh, robust flavors and handcrafted cocktails.</p>
+              </div>
             </div>
             <div class="carousel-item">
               <img src="images/image10.avif" class="d-block w-100" id=staffpic alt="...">
+              <div class="carousel-caption">
+                <h1 class="text-uppercase">About</h1>
+                <p>At CO, find uniquely inspired dishes with fresh, robust flavors and handcrafted cocktails.</p>
+              </div>
             </div>
             <div class="carousel-item">
-              <img src="images/image11.avif" class="d-block w-100" id=staffpic alt="...">
+              <img src="images/image11.avif" class="d-block w-50 h-50" id=staffpic alt="...">
+              <div class="carousel-caption">
+                <h1 class="text-uppercase">About</h1>
+                <p>At CO, find uniquely inspired dishes with fresh, robust flavors and handcrafted cocktails.</p>
+              </div>
             </div>
             <div class="carousel-item">
               <img src="images/image12.avif" class="d-block w-100" id=staffpic alt="...">
+              <div class="carousel-caption">
+                <h1 class="text-uppercase">About</h1>
+                <p>At CO, find uniquely inspired dishes with fresh, robust flavors and handcrafted cocktails.</p>
+              </div>
             </div>
+            
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -117,10 +143,8 @@
                       <p>CO is designed to be a place for gathering. Taste fresh, robust flavors, and cheers with signature cocktails made from scratch, designed to pair perfectly with a variety of dishes on the menu. Gluten-free and vegan options guarantee there’s something for everyone, every time you visit.</p>
                     </div>
                   </div>
-
               </div>
           </div>
-          
       </div>
       <div>
           <div class="carousel">
@@ -183,17 +207,16 @@
           display: flex;
         }
         
-        /* Create three equal columns that sits next to each other */
         .column {
           flex: 33.33%;
           padding: 5px;
         }
-        </style>
-        </head>
+      </style>
+  </head>
         <body>
         <div class="row">
           <div class="column">
-            <img src="images/image15.avif" alt="..." style="width:100%">
+            <img src="images/image15.avif" alt="..." style="width:60%">
           </div>
           <div class="column">
             <img src="images/image16.avif" alt="..." style="width:100%">
@@ -202,7 +225,7 @@
       <div class="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="images/collected.avif" class="w-50 h-50">
+              <img src="images/collected.avif">
             </div>
         </div>
     </div>

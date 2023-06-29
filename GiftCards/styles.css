@@ -1,0 +1,109 @@
+h1 {
+    font-weight: 900 !important;
+    font-family: "Roboto" , sans-serif !important;
+}
+.font-heading {
+    font-size: 2rem !important;
+    width: 100px;
+}
+
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: "Roboto" !important;
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    color: #000;
+}
+
+p {
+    font-weight: 300 !important;
+}
+#main-content a {
+    color: #444;
+    text-decoration: none;
+}
+.content {
+    padding-top: 5rem;
+}
+
+.form-ui__group {
+    text-align: left;
+    border-radius: 0;
+    /* padding: 0.75rem 0.75rem; */
+}
+
+.input-label {
+    font-size: .8rem;
+    font-weight: 700;
+    padding-left: 3px;
+}
+.input-label-required {
+    color: #b6b6b6;
+    font-style: italic;
+}
+
+
+textarea {
+    min-width: 100%;
+    max-width: 100%;
+    height: 9rem;
+    min-height: 9rem;
+    max-height: 12rem;
+}
+.float-right {
+    float: right;
+    margin-right: 22%;
+}
+
+.form-control-group--icon {
+    color: rgba(221,221,221,0.6);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 8px;
+}
+
+/* .btn {
+    margin-top: 4%;
+    margin-left: 30%;
+} */
+#cart-button {
+    background-color: #e32526;
+    font-size: .8rem;
+    color: #fff;
+    font-family: "Roboto";
+    border-radius: 0;
+    border: 1px solid transparent;
+    letter-spacing: 1px;
+}
+#cart-button:hover {
+    background-color: #222;
+}
+.btn-house {
+    padding-top: 2.5rem;
+    padding-bottom: 3.5rem;
+}
+
+/* .collected {
+    background-color: #000;
+    width: 100vw !important;
+}
+
+#hospitality-dev {
+    width: 100%;
+    display: block;
+} */
+
+.parent-container {
+    background-color: #000;
+    margin-bottom: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  nav {
+    background-color: #000;
+  }
